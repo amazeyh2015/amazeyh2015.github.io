@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-container">
+            <div class="site-title">
+                <a href="/">Home</a>
+            </div>
+            <nav class="nav-menu">
+                <a href="/categories/learning/" class="nav-link">Learning</a>
+                <a href="/categories/sharing/" class="nav-link">Sharing</a>
+                <a href="/about/" class="nav-link">About</a>
+            </nav>
+        </div>
+    </header>
+    <main class="content">
+        {{ content }}
+    </main>
+</body>
+</html>

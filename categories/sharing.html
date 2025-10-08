@@ -1,0 +1,9 @@
+---
+layout: default
+title: Sharing
+permalink: /categories/sharing/
+---
+
+{% assign filted_posts = site.posts | where_exp: "post", "post.categories contains 'sharing'" %}
+
+{% include post-list.html posts=filted_posts %}

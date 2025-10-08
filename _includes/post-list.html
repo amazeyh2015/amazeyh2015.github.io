@@ -1,0 +1,11 @@
+{% assign posts = include.posts %}
+
+<ul class="post-list">
+    {% for post in posts %}
+        <li class="post-item">
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+            <hr class="post-separator">
+        </li>
+    {% endfor %}
+</ul>

@@ -1,0 +1,8 @@
+---
+layout: default
+title: Home
+---
+
+{% assign filted_posts = site.posts | limit:10 %}
+
+{% include post-list.html posts=filted_posts %}

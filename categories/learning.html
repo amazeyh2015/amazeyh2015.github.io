@@ -1,0 +1,9 @@
+---
+layout: default
+title: Learning
+permalink: /categories/learning/
+---
+
+{% assign filted_posts = site.posts | where_exp: "post", "post.categories contains 'learning'" %}
+
+{% include post-list.html posts=filted_posts %}

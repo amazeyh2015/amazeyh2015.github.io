@@ -1,0 +1,25 @@
+# Site Settings
+email: amazeyh2015@163.com
+baseurl: ""
+url: "https://amazeyh2015.github.io"
+github_username: amazeyh2015
+
+# Build Settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: "highlight"
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+timezone: Asia/Shanghai
+
+# Exclude files from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
