@@ -48,6 +48,7 @@ blockquote {
     padding: 0.5rem;
     background-color: var(--color-background-code);
     border-radius: 0 5px 5px 0;
+    overflow-x: auto;
 }
 
 blockquote p {
@@ -150,6 +151,7 @@ blockquote p {
 }
 
 .post-content p {
+    overflow-wrap: break-word;
     margin: 0;
 }
 
@@ -172,4 +174,8 @@ blockquote p {
     box-shadow: 0 2px 8px var(--color-shadow);
     object-fit: cover;
     display: block;
+}
+
+.about-page p {
+    overflow-wrap: break-word;
 }

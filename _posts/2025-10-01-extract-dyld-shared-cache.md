@@ -6,6 +6,7 @@ categories: learning
 ---
 
 From macOS 11, Apple ships a generated cache of all built in dynamic libraries and excludes the originals.
+
 # extract tool
 > /usr/lib/dsc_extractor.bundle
 
