@@ -8,14 +8,14 @@ github_username: amazeyh2015
 markdown: kramdown
 kramdown:
   input: GFM
-  hard_wrap: false
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    css_class: "highlight"
-    span:
-      line_numbers: false
-    block:
-      line_numbers: false
+  hard_wrap: true
+  # syntax_highlighter: rouge
+  # syntax_highlighter_opts:
+  #   css_class: "highlight"
+  #   span:
+  #     line_numbers: false
+  #   block:
+  #     line_numbers: false
 timezone: Asia/Shanghai
 
 # Exclude files from build

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Extract dyld shared cache"
+title: "Extract dyld Shared Cache"
 date: 2025-10-01 10:00:00 +0800
 categories: learning
 ---
